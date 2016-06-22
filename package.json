@@ -1,6 +1,6 @@
 {
   "name": "better-timeout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Standard javascript setTimeout with clearTimeout as returned function",
   "author": {
     "name": "Zlatko Fedor",
@@ -33,10 +33,8 @@
     "build": "babel-node ./node_modules/gulp/bin/gulp.js build",
     "eslint": "node ./node_modules/eslint/bin/eslint.js --ext .js,.jsx ."
   },
-  "dependencies": {
-  },
-  "peerDependencies": {
-  },
+  "dependencies": {},
+  "peerDependencies": {},
   "devDependencies": {
     "babel-cli": "^6.10.1",
     "babel-eslint": "^6.0.5",
