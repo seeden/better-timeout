@@ -1,6 +1,6 @@
 {
   "name": "better-timeout",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Standard javascript setTimeout with clearTimeout as returned function",
   "author": {
     "name": "Zlatko Fedor",

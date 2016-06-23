@@ -7,7 +7,7 @@ export default function timeout(fn, ...restArgs) {
     fn.apply(this, args);
   }
 
-  setTimeout(processTimeout, ...restArgs);
+  id = setTimeout(processTimeout, ...restArgs);
 
   function clear() {
     if (typeof id === 'undefined') {
